@@ -15,8 +15,9 @@ Este projeto foi idealizado com dedicação e propósito. Toda a honra é de Jes
 
 - **Washington Santos**
 
--** Julio Salamoni**
+- **Julio Salamoni**
 - https://github.com/JulioSalamoni
+- 
 ##  Tecnologias Utilizadas
 
 - **MySQL** como sistema de gerenciamento de banco de dados
