@@ -50,3 +50,5 @@ INSERT INTO servico (reserva_id, tipo_id, funcionario_id, inicio, fim, status) V
 INSERT INTO pagamento (reserva_id, valor, metodo, status) VALUES
 (1, 250.00, 'Cartão', 'Concluído'), -- Total: 2 dias * 100 (quarto) + 50 (banho)
 (2, 400.00, 'PIX', 'Concluído');    -- Total: 2 dias * 150 (quarto) + 100 (consulta)
+
+-- Fiz umas atualizaçoes ai cachorro
