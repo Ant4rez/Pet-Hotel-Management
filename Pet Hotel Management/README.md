@@ -16,8 +16,8 @@ Este projeto foi idealizado com dedicação e propósito. Toda a honra é de Jes
 ##  Tecnologias Utilizadas
 
 - **MySQL** como sistema de gerenciamento de banco de dados
-- Ferramentas de modelagem: engenharia reversa via MySQL
-- SQL para criação, manipulação e consulta de dados
+- Ferramentas de modelagem: engenharia reversa via MySQL Workbench
+- Visual Studio Code
 
 ##  Estrutura do Projeto
 
@@ -28,9 +28,10 @@ Este projeto foi idealizado com dedicação e propósito. Toda a honra é de Jes
 ##  Como usar
 
 1. Abra o MySQL Workbench ou outro cliente compatível.
-2. Execute o `script_criacao.sql` localizado em `/database`.
-3. Popule com exemplos via `script_insercao_exemplos.sql`.
-4. Teste e visualize os dados com `script_consultas.sql`.
+2. Execute o script `01_create_database` localizado em `/database`.
+3. Use o `02_create_tables`
+4. Popule com exemplos via `03_insert_sample_data`.
+5. Teste e visualize os dados com `04_test_reserva`.
 
 ##  Visão Geral
 
