@@ -1,0 +1,97 @@
+1- REGRA DE NEGÓCIOS
+
+- Cadastro de Clientes
+* o cliente pode se cadastrar com seus dados (Nome, Email, Número de Celular/Telefone)
+
+- Cadastro de Pets
+* o cliente deve cadastrar seu(s) pet(s) com os dados do pet (nome, espécie, porte*, dados de vacinação*) 
+
+- Cadastro de Funcionários
+* os funcionários devem se cadastrar com seus dados (nome, email, função*)
+
+- Sistema de escalas e turno de funcionários
+* os gerentes devem controlar o sistema de turno para garantir que hajam funcionários disponíveis a todos os momentos.
+
+- Sistema de Hospedagem
+* deve permitir hospedagem online e presencial com a escolha de seus respectivos serviços e tempo de estadia.
+
+- Serviços do Hotel
+* o hotel deve ter seus serviços, permitindo o cliente escolher quais tipos de serviço ele desejar ou não
+entre elas:
+* suíte - Suítes disponíveis, desde mais básicas a mais luxuosas, a disponibilidade da suíte depende do porte do pet.
+* banho e tosa - classes de banhos, simples até higienizações completas. 
+* brincadeiras - classes de brincadeiras mais simples até tipos mais completos.
+* consultas veterinárias - sistema de veterinário, para escolha do cliente ou até emergências.
+* alimentação - escolha do cliente para a alimentação devida a o seu pet. 
+* farmácia - sistema com estoque para garantir diversos tipos de medicamentos.
+
+
+- Sistema de Segurança 
+* Sistema para garantir segurança e conforto a os pets no hotel, alocando os funcionários da parte da segurança.
+
+- Sistema de Limpeza
+* Sistema para alocar a equipe de limpeza na limpeza de suítes e espaços do hotel.
+
+- Sistema de Cuidadores
+* Sistema para alocar os cuidadores a os pets, atribuindo eles às brincadeiras e alimentação escolhidas para o pet.
+
+-Sistema de Recepcionismo
+* Sistema para alocar os funcionários na recepção dos clientes. 
+
+- Sistema de Veterinário
+* Sistema para alocar os veterinários nas consultas dos pets.
+
+- Sistema de Tosadores
+* Sistema para alocar os tosadores nos serviços de banho e tosa solicitados.
+
+
+- Formas de pagamento
+* O sistema deve permitir diferentes formas de pagamento, como dinheiro, cartões e pix.
+
+
+- Sistema de avaliação em estrelas
+* Os cliente poderão deixar uma avaliação em estrelas após o tempo de estadia no hotel.
+
+- Sistema de Logs
+* o sistema gera uma log de cada hospedagem realizada, guardando a hospedagem, pet e cliente
+
+---------------------------
+
+2- REQUISITOS FUNCIONAIS
+
+- O cliente deve poder se cadastrar usando seus dados (Nome, Email, Número de Celular/Telefone);
+- O cliente deve poder cadastrar seus pets com os dados do pet (nome, espécie, porte*, dados de vacinação*);
+- O cliente deve escolher o porte do pet para verificar os serviços disponíveis para tal porte;
+- O cliente deve mandar uma carteira de vacinação atualizada para conseguir concluir a hospedagem;
+
+
+- Os funcionários devem se cadastrar usando seus dados (nome, email, telefone, função*);
+- Os funcionários devem ser alocados à sua função (cuidadores, tosadores, veterinário, segurança, recepcionista, limpeza, gerente);
+
+
+- O sistema de hospedagem deve permitir hospedagem online e presencial permitindo a escolha do tempo de estadia no hotel e serviços;
+- Os serviços de hotel devem permitir serviços obrigatórios (como a escolha de uma suíte e alimentação) e serviços opcionais (como passeios e banhos), definindo o preço final da hospedagem; 
+
+
+- As suítes devem portar diferentes portes de pet, e com suítes de diferentes classes para a escolha do cliente;
+- Os banhos e tosa devem permitir diferentes classes de banho, desde mais simples até banhos mais completos;
+- As brincadeiras devem permitir diferentes tipos de brincadeiras, como passeios e brincadeiras coletivas com outros pets, sendo escolhidas pelo próprio cliente
+- A Alimentação deve ser variada, com diferentes classes e tipos de alimentação, a escolha do cliente para uma alimentação devida ao seu pet;
+- Diferentes tipos de Consultas veterinárias a escolha do cliente
+- Farmácia disponível deve garantir o estoque para diversos tipos de medicamentos; 
+
+- o sistema deve permitir um sistema de escalas e turno de seus funcionários, para garantir que hajam funcionários disponíveis em suas funções a todo momento, os gerentes devem cuidar desse sistema.
+
+- O hotel deve ter um sistema de limpeza, alocando os funcionários da limpeza nas suítes que precisam de limpeza; 
+- O hotel deve ter um sistema de Tosadores, alocando os tosadores a os banhos e tosas solicitados;
+- O hotel deve ter um sistema de Cuidadores, alocando os cuidadores a os pets, e atribuindo eles as brincadeiras e alimentação escolhidas;
+- O hotel deve ter um sistema de veterinário, alocando os profissionais nas consultas solicitadas;
+- O hotel deve garantir um sistema de segurança, alocando os profissionais nas diferentes partes da segurança;
+- O hotel deve ter um sistema de Recepção, alocando os funcionários nas diferentes partes da recepção;
+
+- O sistema deve permitir formas de pagamento como cartões, dinheiro e pix.
+- O sistema deve permitir a os clientes após seu tempo de estadia, uma avaliação online com estrelas usando o id da hospedagem.
+
+- O sistema deve registrar em Logs cada hospedagem realizada concluida ou cancelada.
+- O sistema deve registrar em Logs cada cliente caso seja solicitado a exclusão
+- O sistema deve registrar em Logs cada Pet caso seja solicitado a exclusão.
