@@ -1,4 +1,4 @@
--- Criação do Banco --
+-- Criação do Banco de Dados para Hotel Pets --
 
 -- Criando o banco
 CREATE DATABASE pet_shop;
