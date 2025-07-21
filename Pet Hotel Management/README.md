@@ -8,10 +8,12 @@ Este projeto foi idealizado com dedicação e propósito. Toda a honra é de Jes
 
 > *"Tudo quanto fizerem, façam de todo o coração, como para o Senhor, e não para homens." – Colossenses 3:23*
 
-##  Autor
+##  Autores
 
 - **Thiago Fiel de Oliveira**
 - [LinkedIn](https://www.linkedin.com/in/thiagofieldeoliveira/)
+
+- **Washington Santos**
 
 ##  Tecnologias Utilizadas
 
