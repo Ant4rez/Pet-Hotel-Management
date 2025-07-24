@@ -19,7 +19,7 @@ Este projeto foi idealizado com dedicação e propósito. Toda a honra é de Jes
 - https://github.com/JulioSalamoni
 
 - **Adriano Vieira Ribeiro**
-- - [LinkedIn](https://www.linkedin.com/in/adriano-ribeiro-5aa72069/)
+- [LinkedIn](https://www.linkedin.com/in/adriano-ribeiro-5aa72069/)
   
 ##  Tecnologias Utilizadas
 
